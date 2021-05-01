@@ -4,7 +4,7 @@
 
 The Igarapé Institute is an independent think and do tank, dedicated to integrating tasks such as security, climate, and development, whose objective is to propose solutions and partnerships for global problems through research, new technologies, public political influence, and communication. In partnership with BCG GAMMA, both proposed the **BCG GAMMA Challenge 2021 - Datathon - Virtual Event**, to understand Brazilian public security and act in the prevention of violence.
 
-This project is a study proposal, written in `Python` and `Jupyter Notebook`, which aims at the related tasks performed by BCG GAMMA Datathon.
+This project is a study proposal, based in `Python` and `Jupyter Notebook`, which aims at the related tasks performed by BCG GAMMA Datathon.
 
 ## Usage
 
