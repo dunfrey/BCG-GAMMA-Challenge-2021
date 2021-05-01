@@ -8,12 +8,29 @@ This project is a study proposal, written in `Python` and `Jupyter Notebook`, wh
 
 ## Usage
 
-To run some experiment:
+Clone the repository and install the requeriments:
 
 ```sh
 git clone https://github.com/dunfrey/BCG-GAMMA-Challenge-2021 bcg-gamma-challenge
 cd bcg-gamma-challenge
 pip install -r requirements.txt
+```
+
+The project can be executed in full, obeying the workflow through the following command:
+```
+python main.py run # Run all model pipeline steps sequencially
+```
+
+Or, each step can be performed by the following command:
+```
+python main.py features # Generate features
+python main.py deploy_model # Deploy model
+python main.py evaluate_model # Evaluate model
+```
+
+For more information:
+```
+python main.py --help # Shows usage information.
 ```
 
 ## Repository structure
