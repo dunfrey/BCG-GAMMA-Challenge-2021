@@ -20,3 +20,8 @@ def replace_accents(word):
 
     new_word = ''.join([repl[c] if c in repl else c for c in word])
     return new_word
+
+
+def rank(df, feature_col, n=None, ascending=False):
+
+    return df.sort_values(feature_col, ascending=ascending).head(n)
