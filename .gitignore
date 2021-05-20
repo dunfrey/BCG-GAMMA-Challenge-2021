@@ -10,3 +10,6 @@ __pypackages__/
 # IPython
 profile_default/
 ipython_config.py
+
+# Datasets Folder
+data/
