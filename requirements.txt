@@ -2,6 +2,7 @@ pandas
 numpy
 seaborn
 pyarrow
+phik
 git+https://github.com/fernandojunior/felix-ml-tools.git@main
 jupyter # dev
 jupyterlab # dev
