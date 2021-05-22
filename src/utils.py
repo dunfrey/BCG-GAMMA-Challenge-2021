@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 def inspect(df):
     print('shape:', df.shape)
@@ -25,3 +28,10 @@ def replace_accents(word):
 def rank(df, feature_col, n=None, ascending=False):
 
     return df.sort_values(feature_col, ascending=ascending).head(n)
+
+
+def plot_bar(df, x, y, rotation=90, palette="Blues_d"):
+    sns.barplot(x=x, y=y, data=df, palette=palette)
+
+    plt.xticks(rotation=rotation)
+    plt.tight_layout()
