@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 Explore the folder `\notebooks`, which contains:
 - **1.1_data_ingesting**: ingestion of public data, which collects, organizes and prepares common data to be investigated throughout the project;
-- **1.2_data_target_population**: prepares the target population of the project. In this project, the target population is young adults between 19 and 25 years old and the level of violence related to them;
+- **1.2_data_target_population**: prepares the target population of the project. In this project, the target population is young adults between 15 and 29 years old and the level of violence related to them;
 - **2_data_understanding (1.2, 1.3)**:
     - Hypothesis (1.2): Regions with more public schools have more education and, consequently, less violence
     - Hypothesis (1.3): Families in cities with high unemployment have low income / lower purchasing power (eg, lower income, minimum wage), which encourages illegal alternatives to increase income and, consequently, conflicts with the police and the tax of homicides
