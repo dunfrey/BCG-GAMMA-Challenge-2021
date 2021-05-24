@@ -6,6 +6,18 @@ The Igarapé Institute is an independent think and do tank, dedicated to integra
 
 This project is a study proposal, based in `Python` and `Jupyter Notebook`, which aims at the related tasks performed by BCG GAMMA Datathon.
 
+## Jupyter Notebook Installation
+You can find the installation documentation for the [Jupyter platform, on ReadTheDocs](https://jupyter.readthedocs.io/en/latest/install.html).
+The documentation for advanced usage of Jupyter notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/latest/).
+
+For a local installation, make sure you have [pip installed](https://pip.readthedocs.io/en/stable/installing/) and run:
+
+    $ pip install notebook
+
+Launch with:
+
+    $ jupyter notebook
+
 ## Usage
 
 Clone the repository and install the requeriments:
@@ -17,7 +29,7 @@ pip install -r requirements.txt
 ```
 Explore the folder `\notebooks`, which contains:
 - **1.1_data_ingesting**: ingestion of public data, which collects, organizes and prepares common data to be investigated throughout the project;
-- **1.2_data_target_population**: prepares the target population of the project. In this project, the target population is young adults between 15 and 29 years old and the level of violence related to them;
+- **1.2_data_target_population**: prepares the target population of the project. In this project, the target population is young adults between 19 and 25 years old and the level of violence related to them;
 - **2_data_understanding (1.2, 1.3)**:
     - Hypothesis (1.2): Regions with more public schools have more education and, consequently, less violence
     - Hypothesis (1.3): Families in cities with high unemployment have low income / lower purchasing power (eg, lower income, minimum wage), which encourages illegal alternatives to increase income and, consequently, conflicts with the police and the tax of homicides
@@ -25,6 +37,7 @@ Explore the folder `\notebooks`, which contains:
     - The provision of public social assistance services helps to minimize the levels of violence in cities
 
 In the `\src` folder there are codes that help (support) the codes contained in `\notebooks`.
+
 
 ## Repository structure
 
