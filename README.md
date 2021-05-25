@@ -17,12 +17,11 @@ Clone the repository and install the requeriments:
 ```sh
 git clone https://github.com/dunfrey/BCG-GAMMA-Challenge-2021 bcg-gamma-challenge
 cd bcg-gamma-challenge
-pip install -r requirements.txt
 ```
 
 Integrate BCG GAMMA datasets file:
 - Download zip file `GAMMAChallenge21Dados.zip`
-- Unzip folders from zip file into `./data` folder ('./data/1. SIM..', './data/2. SINAN..', etc.)
+- Unzip folders from zip file into `./data` folder (`'./data/1. SIM..', './data/2. SINAN..', ...`)
 
 ```sh
 $ ls ./data
@@ -38,7 +37,7 @@ $ ls ./data
 
 Integrate extra handled datasets from public sources:
 - Download zip file `handled.zip` from https://drive.google.com/file/d/10a3kaiy3wak-08dI9W2hY-kOZkBj-i-N/view?usp=sharing
-- Unzip folders from zip file into `./data` folder ('./data/1. SIM..', './data/2. SINAN..', etc.)
+- Unzip folder from zip file into `./data` folder (`./data/handled`)
 
 ```sh
 $ ls ./data/handled
@@ -113,5 +112,5 @@ Explore the folder `./notebooks/`, which contains:
 
 ## Authors
 
-Dunfrey Aragão - https://www.linkedin.com/in/dunfrey/
-Fernando Felix - https://www.linkedin.com/in/fernandofnjr/
+- Dunfrey Aragão - https://www.linkedin.com/in/dunfrey/
+- Fernando Felix - https://www.linkedin.com/in/fernandofnjr/
